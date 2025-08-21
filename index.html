@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CRUD operation</title>
+</head>
+
+<body>
+    <H2>BASIC CRUD OPERATION IN JAVASCRIPT & HTML</H2>
+    <div>
+        <form style="margin: 30px;" action="">
+            
+            <input style ="margin-bottom: 2px;" type="text" id="nameInput" placeholder="Name"><br>
+         
+            <input style ="margin-bottom: 2px;" type="text" name="email" id ="emailInput" placeholder="Email"><br>
+           
+            <input style ="margin-bottom: 2px;" type="int"id="PnumberInput" placeholder="number"><br>
+           
+            <input style ="margin-bottom: 2px;" type="password" id="PassInput" placeholder="password"><br>   
+            <button id = "SaveBtn" type="button" onclick="addUser(event)">Add/Update</button>
+        </form>
+     </div>
+
+        <div>      
+        <table border="1px"; border-radius="none"; style="width: 90%;margin-left: 50px;">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone number</th>
+                    <th>Password</th>
+                </tr>
+            </thead>
+            <tbody id = "userTableBody"></tbody>
+        </table>
+        </div>
+
+   
+
+    <script src = CRUDY.JS ></script>
+</body>
+</html>
